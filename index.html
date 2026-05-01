@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تقسيمة | مجتمعك الكروي</title>
+<!-- <link rel="icon" type="image/x-icon" href="images/favicon.ico"> -->
+<link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
+<link rel="apple-touch-icon" href="images/icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="container nav-container">
+    <a href="#" class="logo"><i class="fas fa-futbol"></i><span data-i18n="brand">تقسيمة</span></a>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle"><i class="fas fa-moon"></i></button>
+      <button class="lang-toggle" id="langToggle">EN</button>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg">
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+  </div>
+  <div class="container hero-content">
+    <div class="hero-text">
+      <div class="badge"><i class="fas fa-star"></i><span data-i18n="heroBadge">قريباً في مصر</span></div>
+      <h1 data-i18n="heroTitle">احجز ملعبك، اقسم صحابك، وانطلق في المنافسة</h1>
+      <p data-i18n="heroDesc">تقسيمة أول مجتمع كروي متكامل في مصر. حجز ملاعب خماسية وسباعية وحداشر، تقسيمة تلقائية للفرق، نظام نقاط، سوشيال كروي، ومسابقات.</p>
+      <a href="#features" class="btn btn-primary"><span data-i18n="heroCta">سجل مسبقاً مجاناً</span><i class="fas fa-arrow-left"></i></a>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-number">5/7/11</span><span class="stat-label" data-i18n="statPitches">ملاعب متاحة</span></div>
+        <div class="stat"><span class="stat-number">+10K</span><span class="stat-label" data-i18n="statPlayers">لاعب مهتم</span></div>
+        <div class="stat"><span class="stat-number">24/7</span><span class="stat-label" data-i18n="statBooking">حجز متاح</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="pitch-mockup">
+        <div class="pitch-card">
+          <div class="pitch-field">
+            <div class="field-line center-line"></div>
+            <div class="field-line center-circle"></div>
+            <div class="team team-a">
+              <div class="player"><i class="fas fa-tshirt"></i></div>
+              <div class="player"><i class="fas fa-tshirt"></i></div>
+              <div class="player"><i class="fas fa-tshirt"></i></div>
+              <div class="player"><i class="fas fa-tshirt"></i></div>
+              <div class="player"><i class="fas fa-tshirt"></i></div>
+            </div>
+            <div class="team team-b">
+              <div class="player"><i class="fas fa-tshirt"></i></div>
+              <div class="player"><i class="fas fa-tshirt"></i></div>
+              <div class="player"><i class="fas fa-tshirt"></i></div>
+              <div class="player"><i class="fas fa-tshirt"></i></div>
+              <div class="player"><i class="fas fa-tshirt"></i></div>
+            </div>
+            <div class="ball"><i class="fas fa-futbol"></i></div>
+          </div>
+        </div>
+        <div class="floating-cards">
+          <div class="float-card fc-1"><i class="fas fa-trophy"></i><span data-i18n="floatPoints">+3 نقاط!</span></div>
+          <div class="float-card fc-2"><i class="fas fa-users"></i><span data-i18n="floatSplit">تم التقسيمة!</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features" id="features">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag" data-i18n="featuresTag">ماذا يقدم لك؟</span>
+      <h2 data-i18n="featuresTitle">كل اللي محتاجه اللاعب في مكان واحد</h2>
+    </div>
+    <div class="features-slider-wrapper">
+      <button class="slider-btn prev" id="featPrev"><i class="fas fa-chevron-right"></i></button>
+      <div class="features-slider" id="featuresSlider">
+        <div class="features-track" id="featuresTrack">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-calendar-check"></i></div>
+            <h3 data-i18n="feat1Title">حجز ملاعب ذكي</h3>
+            <p data-i18n="feat1Desc">خماسي، سباعي، حداشر. احجز في ثواني وشوف المواعيد المتاحة.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-random"></i></div>
+            <h3 data-i18n="feat2Title">تقسيمة تلقائية</h3>
+            <p data-i18n="feat2Desc">جمع صحابك وقسملهم فرقتين متوازيتين تلقائياً بالمستوى والمركز.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+            <h3 data-i18n="feat3Title">نظام النقاط</h3>
+            <p data-i18n="feat3Desc">كل فريق كسبان بيجمع نقاط. ترتيب، مستويات، ومنافسة مستمرة بين صحابك.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-photo-video"></i></div>
+            <h3 data-i18n="feat4Title">سوشيال كروي</h3>
+            <p data-i18n="feat4Desc">بوستات، ريلز، هايلايتس من الماتشات. مجتمعك الكروي كله هنا.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-comments"></i></div>
+            <h3 data-i18n="feat5Title">شات الفرق</h3>
+            <p data-i18n="feat5Desc">نظم ماتشك، ناقش التكتيك، وفضل على تواصل مع صحابك داخل التطبيق.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-trophy"></i></div>
+            <h3 data-i18n="feat6Title">مسابقات ودوريات</h3>
+            <p data-i18n="feat6Desc">دورات رمضانية، بطولات أسبوعية، وتحديات مستمرة على مدار السنة.</p>
+          </div>
+        </div>
+      </div>
+      <button class="slider-btn next" id="featNext"><i class="fas fa-chevron-left"></i></button>
+    </div>
+    <div class="slider-dots" id="featuresDots"></div>
+  </div>
+</section>
+
+<section class="how-it-works" id="how">
+<div class="container">
+<div class="section-header"><span class="section-tag" data-i18n="howTag">كيف تلعب؟</span><h2 data-i18n="howTitle">3 خطوات وبتلعب</h2></div>
+<div class="steps">
+<div class="step"><div class="step-num">01</div><div class="step-content"><h3 data-i18n="step2Title">اعمل التقسيمة</h3><p data-i18n="step2Desc">ضيف صحابك، والنظام يقسملهم فرقتين متوازيتين تلقائياً.</p></div></div>
+<div class="step"><div class="step-num">02</div><div class="step-content"><h3 data-i18n="step1Title">احجز الملعب</h3><p data-i18n="step1Desc">اختار ملعبك، التوقيت، والنوع - خماسي، سباعي، أو حداشر.</p></div></div>
+<div class="step"><div class="step-num">03</div><div class="step-content"><h3 data-i18n="step3Title">العب واكسب نقاط</h3><p data-i18n="step3Desc">انزل الملعب، تنافس، والفريق الكسبان بيجمع نقاط.</p></div></div>
+</div>
+</div>
+</section>
+
+<section class="testimonials" id="testimonials">
+<div class="container">
+<div class="section-header"><span class="section-tag" data-i18n="testTag">صوت اللاعبين</span><h2 data-i18n="testTitle">ناس جربت التجربة</h2></div>
+<div class="testimonials-slider-wrapper">
+<button class="slider-btn prev" id="testPrev"><i class="fas fa-chevron-right"></i></button>
+<div class="testimonials-slider" id="testSlider"><div class="testimonials-track" id="testTrack">
+<div class="testimonial-card"><div class="test-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p data-i18n="test1Text">"أخيراً محتاجش أتصل بعشرين صاحب عشان نجمع ماتش."</p><div class="test-author"><div class="test-avatar"><i class="fas fa-user"></i></div><div><span class="test-name">Ahmed K.</span><span class="test-role" data-i18n="test1Role">مهاجم</span></div></div></div>
+<div class="testimonial-card"><div class="test-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p data-i18n="test2Text">"نظام النقاط خلانا نتنافس بين صحابنا كل أسبوع."</p><div class="test-author"><div class="test-avatar"><i class="fas fa-user"></i></div><div><span class="test-name">Mohamed R.</span><span class="test-role" data-i18n="test2Role">وسط ملعب</span></div></div></div>
+<div class="testimonial-card"><div class="test-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div><p data-i18n="test3Text">"صاحب الملعب عندي. التطبيق رتب لي المواعيد والفلوس."</p><div class="test-author"><div class="test-avatar"><i class="fas fa-user"></i></div><div><span class="test-name">Omar S.</span><span class="test-role" data-i18n="test3Role">صاحب ملعب</span></div></div></div>
+<div class="testimonial-card"><div class="test-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p data-i18n="test4Text">"السوشيال كروي فكرة جامدة. بنزل هايلايتس الماتشات."</p><div class="test-author"><div class="test-avatar"><i class="fas fa-user"></i></div><div><span class="test-name">Karim A.</span><span class="test-role" data-i18n="test4Role">حارس مرمى</span></div></div></div>
+</div></div>
+<button class="slider-btn next" id="testNext"><i class="fas fa-chevron-left"></i></button>
+</div>
+<div class="slider-dots" id="testDots"></div>
+</div>
+</section>
+
+<section class="register-section" id="register">
+<div class="container">
+<div class="register-wrapper">
+<div class="register-info">
+<h2 data-i18n="regTitle">كن من أوائل اللاعبين</h2>
+<p data-i18n="regDesc">سجل بياناتك دلوقتي وخلي صحابك على تواصل.</p>
+<ul class="reg-benefits">
+<li><i class="fas fa-check-circle"></i><span data-i18n="regBen1">تسجيل مجاني تماماً</span></li>
+<li><i class="fas fa-check-circle"></i><span data-i18n="regBen2">أولوية الوصول للنسخة التجريبية</span></li>
+<li><i class="fas fa-check-circle"></i><span data-i18n="regBen3">هدايا حصرية للمسجلين المبكرين</span></li>
+</ul>
+</div>
+<div class="register-form-wrapper">
+<form class="register-form" id="registerForm" action="https://formspree.io/f/mojrveen" method="POST" novalidate>
+<div class="form-group">
+<label for="fullName" data-i18n="labelName">الاسم الكامل</label>
+<input type="text" id="fullName" name="fullName" required data-i18n-placeholder="placeholderName" placeholder="محمد أحمد">
+<span class="error-msg" id="nameError"></span>
+</div>
+<div class="form-group">
+<label for="whatsapp" data-i18n="labelWhatsapp">رقم واتساب</label>
+<input type="tel" id="whatsapp" name="whatsapp" required data-i18n-placeholder="placeholderWhatsapp" placeholder="01x xxx xxxxx">
+<span class="error-msg" id="whatsappError"></span>
+</div>
+<div class="form-group">
+<label data-i18n="labelPhone">نوع الموبايل</label>
+<div class="phone-options">
+<label class="phone-option"><input type="radio" name="phoneType" value="android" required><div class="phone-card"><i class="fab fa-android"></i><span data-i18n="android">Android</span></div></label>
+<label class="phone-option"><input type="radio" name="phoneType" value="iphone" required><div class="phone-card"><i class="fab fa-apple"></i><span data-i18n="iphone">iPhone</span></div></label>
+</div>
+<span class="error-msg" id="phoneError"></span>
+</div>
+<button type="submit" class="btn btn-primary btn-block"><span data-i18n="submitBtn">سجل دلوقتي</span><i class="fas fa-paper-plane"></i></button>
+<div class="form-success" id="formSuccess"><i class="fas fa-check-circle"></i><span data-i18n="successMsg">تم التسجيل! هنبعتلك إشعار أول ما نطلق.</span></div>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="footer">
+<div class="container">
+<div class="footer-content">
+<div class="footer-brand"><a href="#" class="logo"><i class="fas fa-futbol"></i><span data-i18n="brand">تقسيمة</span></a><p data-i18n="footerDesc">أول مجتمع كروي متكامل في مصر.</p></div>
+<div class="footer-links">
+<div><h4 data-i18n="footerFeatures">المميزات</h4><ul><li><a href="#features" data-i18n="feat1Title">حجز ملاعب ذكي</a></li><li><a href="#features" data-i18n="feat2Title">تقسيمة تلقائية</a></li><li><a href="#features" data-i18n="feat3Title">نظام النقاط</a></li></ul></div>
+<div><h4 data-i18n="footerContact">تواصل</h4><ul><li><a href="#register" data-i18n="heroCta">سجل مسبقاً</a></li><li><a href="mailto:alamirtalal.work@gmail.com">Mail Us</a></li></ul></div>
+</div>
+</div>
+<div class="footer-bottom"><p data-i18n="copyright">2026 تقسيمة. كل الحقوق محفوظة.</p></div>
+</div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
